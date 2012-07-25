@@ -13,10 +13,10 @@ table, caption, tbody, tfoot, thead, tr, th, td
 	list-style: none;
 	text-decoration:none;
 }
-a:hover, a:visited, a:active{
+/*a:hover, a:visited, a:active{
 	color:#ffffff;
 }
-
+*/
 #page-container {
 	background: #f8eedf;
 }
