@@ -1,0 +1,435 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	list-style: none;
+	text-decoration:none;
+}
+
+html {
+	height:100%;
+}
+
+#home {
+	background:#ffffff;
+	position:absolute;
+	top:0;
+	right:0;
+	left:0;
+	height:100%;
+}
+
+.nav  {
+	position:relative;
+	top:50%;
+	left:50%;
+	width:600px;
+	margin-left:-300px;
+	overflow:hidden;
+	padding: 53px 0px 53px;
+	background:inherit;
+	z-index:2;
+}
+
+.nav ul {
+	text-align:center;
+	overflow:visible;
+}
+
+.nav ul li {
+	display:inline;
+	font-family:"chalet";
+	position:relative;
+}
+
+#home .nav ul li {
+	position:absolute;
+	left:300px;
+	height:0;
+}
+
+/*-----------------------------------------------------------*/
+
+.info-text .nav ul li {
+	top:0px;
+	opacity:0;
+}
+
+#company .nav ul li {
+	top:0px;
+	opacity:0;
+}
+
+#contacts .nav ul li {
+	top:0px;
+	opacity:0;
+}
+
+#clients .nav ul li {
+	top:0px;
+	opacity:0;
+}
+
+.home {
+	left:-80px; 
+	margin-left:20px;
+}
+
+.info {
+	left:-30px;
+}
+
+.company {
+	left:15px;
+}
+
+.contacts {
+	left:60px;
+}
+
+.clients {
+	left:100px;
+	margin-right:40px;
+}
+
+.nav ul li a {
+	position:relative;
+	color: #000000;
+} 
+
+.footer {
+	position:fixed;
+	width:100%;
+	bottom:0%;
+	margin-bottom:0px;
+	text-align:center;
+	font-family:"chalet";
+	font-size:13.34px;
+	height:0px;
+	overflow:hidden;
+	z-index:1;
+	}
+
+#info {
+	width:1050px;
+	top:0;
+	bottom:0px;
+	height:100%;
+	position:relative;
+}
+
+#starter {
+	position:absolute;
+	top:400px;
+	left:705px;
+	height:0px;
+	width:0px;
+	background:#000000;
+	display:block;
+}
+
+.title {
+	top:0;
+	bottom:0;
+	position:absolute;
+	background: url('../images/info_back.png') no-repeat scroll center top #000000;
+	width: 172px;
+	height: 0px;
+	margin-left: 705px;
+}
+
+.info-text {
+	position:absolute;
+	top:0;
+	bottom:0px;
+	width: 0px;
+	background: #000000;
+	overflow:hidden;
+	margin-left: 1050px;
+	height:100%;
+	min-height:917px;
+}
+
+.info-text .nav {
+	top:0%;
+	left:0%;
+	margin-left:20px;
+}
+
+.info-text .nav ul li a {
+	color: #ffffff;
+}
+
+.info-text .text {
+	padding:0px 0px 5px 75px;
+	width:470px;
+	overflow:hidden;
+	position:relative;
+	background:#000000;
+	z-index:2;
+}
+
+.info-text .text p {
+	color:#ffffff;
+	font-family:"chalet";
+	padding:10px 0;
+	display:none;
+}
+
+.info-text .footer {
+	color:#ffffff;
+	position:absolute;
+	bottom:0;
+	z-index:1;
+}
+
+/*--------------------------------------------------------*/
+
+#company {
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	height:100%;
+	position:absolute;
+}
+
+#company .nav {
+	top:0;
+	overflow:hidden;
+	padding: 53px 0 53px;
+	position:relative;
+	background:#ffffff;
+	z-index:2;
+}
+
+.content {
+	position:relative;
+	background:#ffffff;
+	z-index:2;
+}
+.content .upper {
+	background:#000000;
+	width:0%;
+	min-width:0px;
+	height:42px;
+}
+
+.content .upper h2 {
+	position:relative;
+	color:#ffffff;
+	font-family:"chalet";
+	font-size:63px;
+	margin-left:8px;
+	display:inline;
+	top:-12px;
+}
+
+.content .lower {
+	width:0%;
+	margin-left:28%;
+	background:#000000;
+	height:42px;
+	position:absolute;
+}
+
+.content .text {
+	margin-left: 28%;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	width: 530px;
+	opacity:0;
+	overflow:hidden;
+}
+
+.content .text p {
+	font-family :"chalet";
+	padding: 10px 0;
+}
+
+.content .text p:first-child {
+	padding-top:18px;
+}
+
+#company .footer {
+	bottom:0%;
+}
+
+/*-------------------------------------------------------*/
+
+.holder {
+	display:block;
+	height:359px;
+	width:0px;
+	background:#000000;
+	float:left;
+	margin-right:50px;
+}
+
+.c, .o, .n {
+	float:left;
+}
+
+.t1, .a, .c1, .t2 {
+	float:left;
+}
+
+.c {
+	margin-top:195px;
+	height: 0px;
+	width:192px;
+	background:url('../images/c.png') no-repeat;
+}
+
+.o {
+	margin-top:195px;
+	height: 0px;
+	width:189px;
+	margin-left:-10px;
+	background:url('../images/o.png') no-repeat;
+}
+
+.n {
+	margin-top:192px;
+	height:0px;
+	width:126px;
+	margin-left:-2px;
+	background:url('../images/n.png') no-repeat;
+}
+
+.t1 {
+	clear:left;
+	margin-top:164px;
+	height: 0px;
+	width:126px;
+	background:url('../images/t.png') no-repeat;
+}
+
+.a {
+	margin-left:-10px;
+	margin-top:167px;
+	height: 0px;
+	width:118px;
+	background:url('../images/a.png') no-repeat;
+}
+
+.c1 {
+	margin-top:170px;
+	height: 0px;
+	width:150px;
+	background:url('../images/c.png') no-repeat;
+	background-size:150px 172px;
+}
+.t2 {
+	margin-left:-5px;
+	margin-top:164px;
+	height: 0px;
+	width:116px;
+	background:url('../images/t.png') no-repeat;
+	background-size:116px 168px;
+}
+
+.wrap {
+	position:relative;
+	padding-top:50px;
+}
+
+.wrap .content {
+	width:364px;
+	left:545px;
+	position:absolute;
+}
+
+.wrap .content ul li {
+	width:0%;
+	margin-top:30px;
+	height:70px;
+}
+
+.block {
+	position:relative;
+	width:100%;
+	height:30px;
+	background:#000000;
+	display:inline-block;
+}
+
+.mail {
+	font-family:"chalet";
+	font-size: 16px;
+	padding-top:5px;
+	height:40px;
+	opacity:0;
+}
+
+.em {
+	float:right;
+	color:#000000;
+}
+
+.address {
+	position:absolute;
+	bottom:-359px;
+	left:545px;
+	font-family:"chalet";
+	font-size: 14.15px;
+	padding-top: 10px;
+	overflow:hidden;
+	display:none;
+}
+
+.address p{
+	overflow:hidden;
+	height:15px;
+}
+
+/*--------------------------------------------------------*/
+
+.client {
+	left:50%;
+	margin-left:-550px;
+	position: absolute;
+	top: 220px;
+	width: 1100px;
+	min-height:500px;
+	background:#ffffff;
+	z-index:2;
+}
+
+.cl, .cl1 {
+	float:left;
+	position:relative;
+	padding-left:-10px;
+	padding-right:35px;
+	opacity:0;
+}
+
+.cl1 {
+	padding-left:20px;
+}
+
+#mark {
+	position:absolute;
+	z-index=-1;
+	opacity:0.05;
+	font-size:21em;
+	font-family:"chalet";
+}
+
+#mark span {
+	position:relative;
+	display:inline-block;
+	height:0px;
+	margin-left:-40px;
+	margin-right:-40px;
+	margin-top:200px;
+	overflow:hidden;
+}
